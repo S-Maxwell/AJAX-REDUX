@@ -1,0 +1,38 @@
+a {
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding:0;
+}
+
+li {
+  background-color: #2F3C4F;
+  border-radius: 3px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+li:nth-child(odd) {
+    background-color: #F4D03F;
+}
+
+li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.3);  
+}
+
+li img {
+    max-width: 50%;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+li img:hover {
+    transform: scale(1.05);
+  }
