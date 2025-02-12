@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>API Star Wars</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script defer type="module" src="js/main.js"></script> 
+  </head>
+  <body>
+    <div class="full-width-grid-con sw-nav">
+      <img src="images/starwars-logo.png" alt="the logo" class="s-logo">
+    </div>
+
+    <div class="grid-con">
+      <section class="col-span-full m-col-span-6">
+        <h2 class="charactr-txt">Characters</h2>
+        <div id="people-box"></div>
+      </section>
+      <div class="col-span-full m-col-span-6">
+        <h2>Movie</h2>
+        <section id="video-con">
+          <!-- Template will go here -->
+          <template id="video-template">
+            <p class="video-director"></p>
+            <h3 class="video-head"></h3>
+            <img class="video-image">
+            <p class="video-info"></p>
+          </template>
+        </section>
+       
+        
+      </div>
+    </div>
+    
+  </body>
+</html>
